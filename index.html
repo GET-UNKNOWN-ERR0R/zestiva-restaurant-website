@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Zestiva</title>
+</head>
+
+<body>
+    <!-- NAVBAR  -->
+    <nav class="navbar">
+        <div class="left-section">
+            <div class="logo">
+                <a href="#">Zestiva</a>
+            </div>
+            <ul class="nav-links left-nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#menuList">Menu</a></li>
+                <li><a href="#aboutUs">About</a></li>
+                <li><a href="#reserveTable">Reserve Table</a></li>
+            </ul>
+        </div>
+        <div class="right-section">
+            <ul class="nav-links right-nav">
+                <li class="icons">
+                    <a href="#"><i class="fas fa-user"></i></a>
+                    <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                </li>
+            </ul>
+            <a href="#" class="order-btn" id="rr">Place Order</a>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+    <!-- welcome  -->
+    <div class="welcome-section">
+        <h1>Delicious Moments Start Here</h1>
+        <p>Experience the finest dining with exquisite dishes crafted from the freshest ingredients. Your satisfaction
+            is our priority.</p>
+        <a href="#" class="btn-order">Taste the Zest</a>
+        <div class="image-container">
+            <img src="images/welcome-img.avif" alt="Restaurant Image">
+        </div>
+    </div>
+    <!-- popular  -->
+    <section class="popular-dishes" id="menuList">
+        <h2>The Most Loved Plates</h2>
+        <div class="dishes-container">
+            <!-- Dish 1 -->
+            <div class="dish-card">
+                <img src="images/samosa.avif" alt="Dish 1">
+                <div class="dish-info">
+                    <div class="ee">
+                        <h3>Delicious Samosa</h3>
+                        <p><i class="fa-solid fa-indian-rupee-sign"></i> 40.00</p>
+                    </div>
+                    <a href="#" class="order-btn-dish">Order Now</a>
+                </div>
+            </div>
+            <!-- Dish 2 -->
+            <div class="dish-card">
+                <img src="images/burger.webp" alt="Dish 2">
+                <div class="dish-info">
+                    <div class="ee">
+                        <h3>Bun Royale</h3>
+                        <p><i class="fa-solid fa-indian-rupee-sign"></i> 50.80</p>
+                    </div>
+                    <a href="#" class="order-btn-dish">Order Now</a>
+                </div>
+            </div>
+            <!-- Dish 3 -->
+            <div class="dish-card">
+                <img src="images/pasta.webp" alt="Dish 3">
+                <div class="dish-info">
+                    <div class="ee">
+                        <h3>Noodle Nest</h3>
+                        <p><i class="fa-solid fa-indian-rupee-sign"></i> 35.50</p>
+                    </div>
+                    <a href="#" class="order-btn-dish">Order Now</a>
+                </div>
+            </div>
+            <!-- Dish 4 -->
+            <div class="dish-card">
+                <img src="images/halva.webp" alt="Dish 4">
+                <div class="dish-info">
+                    <div class="ee">
+                        <h3>Divine Delight</h3>
+                        <p><i class="fa-solid fa-indian-rupee-sign"></i> 120.50</p>
+                    </div>
+                    <a href="#" class="order-btn-dish">Order Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about  -->
+    <section class="about-us" id="aboutUs">
+        <div class="about-content">
+            <div class="image-content hidden">
+                <img src="images/interior.avif" alt="Restaurant Interior">
+            </div>
+            <div class="text-content hidden">
+                <h1 class="headline">What Drives Us</h1>
+                <h2 class="subheadline">Delicious food, warm ambiance, and unforgettable memories.</h2>
+                <p class="description">
+                    At <span>Zestiva</span>, we pride ourselves on serving fresh, flavorful dishes with a
+                    focus on quality and customer satisfaction. Whether you're here for a casual meal with friends or a
+                    special celebration, our team is here to make your experience extraordinary.
+                </p>
+                <a href="#" class="learn-more-btn">Know More</a>
+            </div>
+        </div>
+    </section>
+    <!-- special -->
+    <section class="special-offers">
+        <div class="offers-content">
+            <div class="offers-text">
+                <h1 class="headline">Today's Special Offer</h1>
+                <h2 class="subheadline">Enjoy a 20% discount on all mains!</h2>
+                <p class="description">
+                    Order today and enjoy a 20% discount on our main courses. Don't miss out – this offer is valid only
+                    for a limited time.
+                </p>
+                <a href="#" class="cta-btn">Claim Your Offer</a>
+            </div>
+            <div class="offers-image">
+                <img src="images/kachaudi.webp" alt="Special Offer Dish">
+            </div>
+        </div>
+    </section>
+    <!-- testimonail -->
+    <section class="testimonials">
+        <h1 class="testimonial-headline">Words from Our Guests</h1>
+        <h2 class="testimonial-subheadline">Real reviews from happy guests.</h2>
+        <div class="testimonial-cards">
+            <!-- Testimonial Card 1 -->
+            <div class="testimonial-card">
+                <div class="testimonial-image">
+                    <img src="images/aditya-rey.jpg" alt="Aditya Rey">
+                </div>
+                <h3 class="customer-name">Aditya Rey</h3>
+                <p class="customer-review">
+                    "The best dining experience I've ever had! The staff were so friendly, and the food was amazing!"
+                </p>
+                <div class="star-rating">⭐⭐⭐⭐⭐</div>
+            </div>
+            <!-- Testimonial Card 2 -->
+            <div class="testimonial-card">
+                <div class="testimonial-image">
+                    <img src="images/arya-veda.jpg" alt="Arya Veda">
+                </div>
+                <h3 class="customer-name">Arya Veda</h3>
+                <p class="customer-review">
+                    "Absolutely loved the ambiance and the food! Will definitely visit again."
+                </p>
+                <div class="star-rating">⭐⭐⭐⭐⭐</div>
+            </div>
+            <!-- Testimonial Card 3 -->
+            <div class="testimonial-card">
+                <div class="testimonial-image">
+                    <img src="images/levi-joseph.png" alt="Levi Joseph">
+                </div>
+                <h3 class="customer-name">Levi Joseph</h3>
+                <p class="customer-review">
+                    "Great service and delicious food. Highly recommend this restaurant!"
+                </p>
+                <div class="star-rating">⭐⭐⭐⭐⭐</div>
+            </div>
+        </div>
+    </section>
+    <!-- reserved -->
+    <section class="reservation" id="reserveTable">
+        <div class="reservation-container">
+            <!-- Left Side: Text -->
+            <div class="reservation-text">
+                <h1 class="reservation-headline">Reserve Your Table</h1>
+                <h2 class="reservation-subheadline">Book your table in just a few clicks.</h2>
+                <p class="reservation-paragraph">
+                    To ensure the best experience, we recommend making a reservation before you visit. Reserve now to
+                    guarantee your spot!
+                </p>
+            </div>
+            <!-- Right Side: Form -->
+            <div class="reservation-form">
+                <form action="#" method="post">
+                    <input type="text" name="name" placeholder="Your Name" required />
+                    <input type="date" name="date" required />
+                    <input type="time" name="time" required />
+                    <input type="number" name="people" placeholder="Number of People" min="1" required />
+                    <button type="submit" class="btn-reserve">Reserve Now</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- footer  -->
+    <footer class="custom-footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Enterprise</h3>
+                <ul>
+                    <li><a href="#">Careers at ZESTIVA</a></li>
+                    <li><a href="#">The ZESTIVA Story</a></li>
+                    <li><a href="#">Service Agreement</a></li>
+                    <li><a href="#">Privacy & Security</a></li>
+                    <li><a href="#">Classy Visuals</a></li>
+                </ul>
+            </div>
+            <!-- Middle Section: Links -->
+            <div class="footer-section">
+                <h3>Service</h3>
+                <ul>
+                    <li><a href="#">Our Dishes</a></li>
+                    <li><a href="#">Signature Specials</a></li>
+                    <li><a href="#">Affordable Meals</a></li>
+                    <li><a href="#">Group Dining</a></li>
+                    <li><a href="#">Seasonal Delight</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Insights</h3>
+                <ul>
+                    <li><a href="#">Get to Know Us</a></li>
+                    <li><a href="#">Connect with Us</a></li>
+                    <li><a href="#">Ingredient Alerts</a></li>
+                    <li><a href="#">Nutrition Details</a></li>
+                    <li><a href="#">Shop with Us</a></li>
+                </ul>
+            </div>
+            <!-- Left Section: Logo and Tagline -->
+            <div class="footer-section">
+                <h2 class="footer-logo">
+                    <span style="color: #ffcc00;">Zes</span>tiva
+                </h2>
+                <p id="footer-para">At <span style="color: #228c04;
+                font-weight: bold;">ZESTIVA</span>, we blend innovation and tradition to craft exceptional dishes that
+                    delight your taste buds, offering a unique culinary experience in every bite.</p>
+            </div>
+        </div>
+        <!-- Bottom Section: Social Media, Contact, and Business Hours -->
+        <div class="footer-bottom">
+            <div class="social-media">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+            <p>Visit us at: XYZ Foodie Lane, NYC69 City, FL 12345</p>
+            <p>Call us at: <a href="tel:+91-1234567890">+91 1234 567 890</a></p>
+            <p>Business Hours: Mon-Fri: 8am-10pm | Sat-Sun: 6am-12pm</p>
+            <p>&copy; 2024 ZESTIVA. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
